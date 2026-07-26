@@ -1,0 +1,55 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Program",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\frontend\\src\\pages\\OrderForm.jsx",
+            "outFiles": [
+                "${workspaceFolder}/**/*.js"
+            ]
+        },
+        {
+            "name": "OrderAPI",
+            "type": "coreclr",
+            "request": "launch",
+            "program": "${workspaceFolder}/OrderAPI/bin/Debug/net10.0/OrderAPI.dll",
+            "cwd": "${workspaceFolder}/OrderAPI",
+            "console": "internalConsole",
+            "stopAtEntry": false,
+            "env": {
+                "ASPNETCORE_ENVIRONMENT": "Development"
+            }
+        },
+        {
+            "name": "AuthService",
+            "type": "coreclr",
+            "request": "launch",
+            "program": "${workspaceFolder}/AuthService/bin/Debug/net10.0/AuthService.dll",
+            "cwd": "${workspaceFolder}/AuthService",
+            "console": "internalConsole",
+            "stopAtEntry": true,
+            "justMyCode": false,
+            "env": {
+                "ASPNETCORE_ENVIRONMENT": "Development",
+                "DOTNET_ENVIRONMENT": "Development"
+            }
+        }
+    ],
+    "compounds": [
+        {
+            "name": "Run Order API + Auth Service",
+            "configurations": [
+                "OrderAPI",
+                "AuthService"
+            ]
+        }
+    ]
+}
