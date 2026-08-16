@@ -39,6 +39,11 @@ builder.Services.AddAuthentication(OpenIdConnectDefaults.AuthenticationScheme)
         var scope = builder.Configuration["AzureAd:Scope"];
         var clientId = builder.Configuration["AzureAd:ClientId"];
 
+        if (!options.Scope.Contains("offline_access"))
+        {
+            options.Scope.Add("offline_access");
+        }
+
         if (!string.IsNullOrWhiteSpace(scope) &&
             !string.IsNullOrWhiteSpace(clientId) &&
             scope.Contains(clientId, StringComparison.OrdinalIgnoreCase))
@@ -51,9 +56,8 @@ builder.Services.AddAuthentication(OpenIdConnectDefaults.AuthenticationScheme)
         }
 
         options.Events.OnTokenValidated = context =>
-        {
+        {   
             var accessToken = context.TokenEndpointResponse?.AccessToken;
-            var idToken = context.TokenEndpointResponse?.IdToken;
             if (!string.IsNullOrEmpty(accessToken))
             {
                 context.HttpContext.Response.Cookies.Append("access_token", accessToken, new CookieOptions

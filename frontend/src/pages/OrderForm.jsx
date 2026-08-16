@@ -28,12 +28,30 @@ export default function OrderForm() {
 
     const handleSubmit = (e) => {
         e.preventDefault();
+
         const req = isEditing 
             ? axiosClient.put(`/orders/${id}`, { ...formData, id: parseInt(id) })
             : axiosClient.post('/orders', formData);
 
         req.then(() => navigate('/orders'))
-           .catch(err => alert('Failed to save order'));
+           .catch(err => {
+               const status = err.response?.status;
+               const responseData = err.response?.data;
+               const message =
+                   responseData?.detail ||
+                   responseData?.title ||
+                   responseData?.message ||
+                   err.message ||
+                   'Unknown error';
+
+               console.error('Failed to save order', {
+                   status,
+                   responseData,
+                   error: err
+               });
+
+               alert(`Failed to save order${status ? ` (${status})` : ''}: ${message}`);
+           });
     };
 
     return (

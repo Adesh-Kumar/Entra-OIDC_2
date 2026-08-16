@@ -1,6 +1,6 @@
 [
   {
-    "Name": "New Profile",
+    "Name": "AuthService + OrderAPI",
     "Projects": [
       {
         "Path": "AuthService\\AuthService.csproj",
@@ -8,6 +8,14 @@
       },
       {
         "Path": "OrderAPI\\OrderAPI.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "NotificationService\\NotificationService.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "API.Gateway\\ApiGateway.csproj",
         "Action": "Start"
       }
     ]
