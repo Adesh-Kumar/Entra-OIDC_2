@@ -20,18 +20,21 @@
             "name": "OrderAPI",
             "type": "coreclr",
             "request": "launch",
+            "preLaunchTask": "build OrderAPI",
             "program": "${workspaceFolder}/OrderAPI/bin/Debug/net10.0/OrderAPI.dll",
             "cwd": "${workspaceFolder}/OrderAPI",
             "console": "internalConsole",
             "stopAtEntry": false,
             "env": {
-                "ASPNETCORE_ENVIRONMENT": "Development"
+                "ASPNETCORE_ENVIRONMENT": "Development",
+                "DOTNET_ENVIRONMENT": "Development"
             }
         },
         {
             "name": "AuthService",
             "type": "coreclr",
             "request": "launch",
+            "preLaunchTask": "build AuthService",
             "program": "${workspaceFolder}/AuthService/bin/Debug/net10.0/AuthService.dll",
             "cwd": "${workspaceFolder}/AuthService",
             "console": "internalConsole",
@@ -41,6 +44,12 @@
                 "ASPNETCORE_ENVIRONMENT": "Development",
                 "DOTNET_ENVIRONMENT": "Development"
             }
+        },
+        {
+            "name": "Attach to running .NET process",
+            "type": "coreclr",
+            "request": "attach",
+            "processId": "${command:pickProcess}"
         }
     ],
     "compounds": [
