@@ -1,20 +1,19 @@
 using MediatR;
 using OrderAPI.Application.Common.Interfaces;
 using OrderAPI.Application.Common.Models;
-using OrderAPI.Data;
 
 namespace OrderAPI.Application.Queries.GetOrderById;
 
 public class GetOrderByIdQueryHandler : IRequestHandler<GetOrderByIdQuery, ApplicationResult<OrderDto>>
 {
-    private readonly ApplicationDbContext _context;
+    private readonly IOrderReadModelRepository _readModelRepository;
     private readonly ICurrentUserService _currentUserService;
 
     public GetOrderByIdQueryHandler(
-        ApplicationDbContext context,
+        IOrderReadModelRepository readModelRepository,
         ICurrentUserService currentUserService)
     {
-        _context = context;
+        _readModelRepository = readModelRepository;
         _currentUserService = currentUserService;
     }
 
@@ -22,7 +21,7 @@ public class GetOrderByIdQueryHandler : IRequestHandler<GetOrderByIdQuery, Appli
         GetOrderByIdQuery request,
         CancellationToken cancellationToken)
     {
-        var order = await _context.Orders.FindAsync([request.Id], cancellationToken);
+        var order = await _readModelRepository.GetOrderByIdAsync(request.Id, cancellationToken);
         if (order is null)
         {
             return ApplicationResult<OrderDto>.NotFound();
@@ -33,6 +32,6 @@ public class GetOrderByIdQueryHandler : IRequestHandler<GetOrderByIdQuery, Appli
             return ApplicationResult<OrderDto>.Forbidden();
         }
 
-        return ApplicationResult<OrderDto>.Success(OrderDto.FromEntity(order));
+        return ApplicationResult<OrderDto>.Success(order);
     }
 }

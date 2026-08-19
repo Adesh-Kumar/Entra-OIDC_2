@@ -38,6 +38,18 @@
           "Port": 5178
         }
       ]
+    },
+    {
+      "UpstreamPathTemplate": "/gateway/order-read/{everything}",
+      "UpstreamHttpMethod": [ "GET" ],
+      "DownstreamPathTemplate": "/api/order-read-models/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5070
+        }
+      ]
     }
   ]
 }

@@ -6,20 +6,20 @@ using OrderAPI.Application.Events;
 using OrderAPI.Data;
 using OrderAPI.Infrastructure.Services;
 
-namespace OrderAPI.Application.Commands.UpdateOrder;
+namespace OrderAPI.Application.Commands.DeleteOrder;
 
-public class UpdateOrderCommandHandler : IRequestHandler<UpdateOrderCommand, ApplicationResult>
+public class DeleteOrderCommandHandler : IRequestHandler<DeleteOrderCommand, ApplicationResult>
 {
     private readonly ApplicationDbContext _context;
     private readonly ICurrentUserService _currentUserService;
     private readonly IEventPublisher _eventPublisher;
-    private readonly ILogger<UpdateOrderCommandHandler> _logger;
+    private readonly ILogger<DeleteOrderCommandHandler> _logger;
 
-    public UpdateOrderCommandHandler(
+    public DeleteOrderCommandHandler(
         ApplicationDbContext context,
         ICurrentUserService currentUserService,
         IEventPublisher eventPublisher,
-        ILogger<UpdateOrderCommandHandler> logger)
+        ILogger<DeleteOrderCommandHandler> logger)
     {
         _context = context;
         _currentUserService = currentUserService;
@@ -27,7 +27,7 @@ public class UpdateOrderCommandHandler : IRequestHandler<UpdateOrderCommand, App
         _logger = logger;
     }
 
-    public async Task<ApplicationResult> Handle(UpdateOrderCommand request, CancellationToken cancellationToken)
+    public async Task<ApplicationResult> Handle(DeleteOrderCommand request, CancellationToken cancellationToken)
     {
         var existingOrder = await _context.Orders.FindAsync(request.Id, cancellationToken);
         if (existingOrder is null)
@@ -40,33 +40,17 @@ public class UpdateOrderCommandHandler : IRequestHandler<UpdateOrderCommand, App
             return ApplicationResult.Forbidden();
         }
 
-        var oldCustomerName = existingOrder.CustomerName;
-        var oldStatus = existingOrder.Status;
-        var oldTotalAmount = existingOrder.TotalAmount;
-
-        existingOrder.CustomerName = request.CustomerName;
-        existingOrder.TotalAmount = request.TotalAmount;
-        existingOrder.Status = request.Status;
-
         try
         {
+            _context.Orders.Remove(existingOrder);
             await _context.SaveChangesAsync(cancellationToken);
 
-            // Publish OrderUpdatedEvent to Service Bus if any projected read-model field changed
-            if (oldCustomerName != request.CustomerName ||
-                oldStatus != request.Status ||
-                oldTotalAmount != request.TotalAmount)
+            // Publish OrderDeletedEvent to Service Bus
+            var @event = new OrderDeletedEvent(request.Id)
             {
-                var @event = new OrderUpdatedEvent(
-                    request.Id,
-                    request.CustomerName,
-                    request.Status,
-                    request.TotalAmount)
-                {
-                    AggregateId = request.Id.ToString()
-                };
-                await _eventPublisher.PublishAsync(@event, cancellationToken);
-            }
+                AggregateId = request.Id.ToString()
+            };
+            await _eventPublisher.PublishAsync(@event, cancellationToken);
 
             return ApplicationResult.Success();
         }

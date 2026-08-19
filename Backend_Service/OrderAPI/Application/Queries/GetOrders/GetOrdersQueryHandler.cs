@@ -1,21 +1,19 @@
 using MediatR;
-using Microsoft.EntityFrameworkCore;
 using OrderAPI.Application.Common.Interfaces;
 using OrderAPI.Application.Common.Models;
-using OrderAPI.Data;
 
 namespace OrderAPI.Application.Queries.GetOrders;
 
 public class GetOrdersQueryHandler : IRequestHandler<GetOrdersQuery, ApplicationResult<IReadOnlyList<OrderDto>>>
 {
-    private readonly ApplicationDbContext _context;
+    private readonly IOrderReadModelRepository _readModelRepository;
     private readonly ICurrentUserService _currentUserService;
 
     public GetOrdersQueryHandler(
-        ApplicationDbContext context,
+        IOrderReadModelRepository readModelRepository,
         ICurrentUserService currentUserService)
     {
-        _context = context;
+        _readModelRepository = readModelRepository;
         _currentUserService = currentUserService;
     }
 
@@ -23,16 +21,10 @@ public class GetOrdersQueryHandler : IRequestHandler<GetOrdersQuery, Application
         GetOrdersQuery request,
         CancellationToken cancellationToken)
     {
-        var query = _context.Orders.AsQueryable();
-
-        if (!_currentUserService.IsAdmin)
-        {
-            query = query.Where(o => o.OwnerId == _currentUserService.UserId);
-        }
-
-        var orders = await query.ToListAsync(cancellationToken);
-
-        return ApplicationResult<IReadOnlyList<OrderDto>>.Success(
-            orders.Select(OrderDto.FromEntity).ToList());
+        //var orders = _currentUserService.IsAdmin
+        //    ? await _readModelRepository.GetAllOrdersAsync(cancellationToken)
+        //    : await _readModelRepository.GetOrdersByOwnerAsync(_currentUserService.UserId ?? string.Empty, cancellationToken);
+        var orders = await _readModelRepository.GetAllOrdersAsync(cancellationToken);
+        return ApplicationResult<IReadOnlyList<OrderDto>>.Success(orders);
     }
 }

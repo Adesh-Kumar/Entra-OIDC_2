@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
+using MongoDB.Driver;
 using OrderAPI.Application.Common.Interfaces;
 using OrderAPI.Data;
 using OrderAPI.Infrastructure.Services;
@@ -85,6 +86,15 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
 builder.Services.AddHttpContextAccessor();
 builder.Services.AddScoped<ICurrentUserService, CurrentUserService>();
 builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(Program).Assembly));
+builder.Services.AddSingleton<IEventPublisher, ServiceBusEventPublisher>();
+builder.Services.AddSingleton<IMongoClient>(sp =>
+{
+    var connectionString = builder.Configuration["Cosmos:ConnectionString"]
+        ?? throw new InvalidOperationException("Cosmos:ConnectionString not configured");
+
+    return new MongoClient(connectionString);
+});
+builder.Services.AddScoped<IOrderReadModelRepository, OrderReadModelRepository>();
 builder.Services.AddControllers();
 
 var app = builder.Build();
@@ -98,5 +108,4 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
-
 

@@ -1,6 +1,7 @@
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using OrderAPI.Application.Commands.CreateOrder;
+using OrderAPI.Application.Commands.DeleteOrder;
 using OrderAPI.Application.Commands.UpdateOrder;
 using OrderAPI.Application.Common.Models;
 using OrderAPI.Application.Queries.GetOrderById;
@@ -60,6 +61,15 @@ public class OrdersController : ControllerBase
         }
 
         var result = await _mediator.Send(command, cancellationToken);
+        return ToActionResult(result, () => NoContent());
+    }
+
+    [HttpDelete("{id}")]
+    public async Task<IActionResult> DeleteOrder(
+        int id,
+        CancellationToken cancellationToken)
+    {
+        var result = await _mediator.Send(new DeleteOrderCommand(id), cancellationToken);
         return ToActionResult(result, () => NoContent());
     }
 

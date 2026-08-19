@@ -17,6 +17,10 @@
       {
         "Path": "API.Gateway\\ApiGateway.csproj",
         "Action": "Start"
+      },
+      {
+        "Path": "OrderReadModelService\\OrderReadModelService.csproj",
+        "Action": "Start"
       }
     ]
   }

@@ -1,6 +1,7 @@
-<Solution>
+﻿<Solution>
   <Project Path="API.Gateway/ApiGateway.csproj" />
   <Project Path="AuthService/AuthService.csproj" />
   <Project Path="NotificationService/NotificationService.csproj" />
   <Project Path="OrderAPI/OrderAPI.csproj" />
+  <Project Path="OrderReadModelService/OrderReadModelService.csproj" />
 </Solution>
