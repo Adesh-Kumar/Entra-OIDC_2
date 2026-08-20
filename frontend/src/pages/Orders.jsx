@@ -7,6 +7,7 @@ export default function Orders() {
     const [orders, setOrders] = useState([]);
     const [user, setUser] = useState(null);
     const [ordersError, setOrdersError] = useState(null);
+    const [deletingOrderId, setDeletingOrderId] = useState(null);
     const navigate = useNavigate();
 
     useEffect(() => {
@@ -16,6 +17,7 @@ export default function Orders() {
             .catch(() => navigate('/'));
 
         // Fetch Orders — show error instead of redirecting to avoid loop
+        setOrdersError(null);
         axiosClient.get('/orders')
             .then(res => setOrders(res.data))
             .catch(err => {
@@ -29,6 +31,38 @@ export default function Orders() {
 
     const handleLogout = () => {
         window.location.href = `${AUTH_API_BASE_URL}/auth/logout`;
+    };
+
+    const handleDelete = async (order) => {
+        const confirmed = window.confirm(`Delete order #${order.id} for ${order.customerName}?`);
+        if (!confirmed) {
+            return;
+        }
+
+        setDeletingOrderId(order.id);
+        try {
+            await axiosClient.delete(`/orders/${order.id}`);
+            setOrders(prev => prev.filter(item => item.id !== order.id));
+        } catch (err) {
+            const status = err.response?.status;
+            const responseData = err.response?.data;
+            const message =
+                responseData?.detail ||
+                responseData?.title ||
+                responseData?.message ||
+                err.message ||
+                'Unknown error';
+
+            console.error('Failed to delete order', {
+                status,
+                responseData,
+                error: err
+            });
+
+            alert(`Failed to delete order${status ? ` (${status})` : ''}: ${message}`);
+        } finally {
+            setDeletingOrderId(null);
+        }
     };
 
     if (!user) return <div className="p-8">Loading...</div>;
@@ -81,6 +115,14 @@ export default function Orders() {
                                     </td>
                                     <td className="p-4 text-right">
                                         <Link to={`/orders/${order.id}`} className="text-indigo-600 hover:text-indigo-900 font-medium mr-4">Edit</Link>
+                                        <button
+                                            type="button"
+                                            onClick={() => handleDelete(order)}
+                                            disabled={deletingOrderId === order.id}
+                                            className="text-red-600 hover:text-red-900 font-medium disabled:text-gray-400 disabled:cursor-not-allowed"
+                                        >
+                                            {deletingOrderId === order.id ? 'Deleting...' : 'Delete'}
+                                        </button>
                                     </td>
                                 </tr>
                             ))}

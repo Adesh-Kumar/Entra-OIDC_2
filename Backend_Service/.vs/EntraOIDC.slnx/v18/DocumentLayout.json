@@ -3,52 +3,155 @@
   "WorkspaceRootPath": "D:\\WorkSpace\\AzureApps\\Entra OIDC_2\\Backend_Service\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2FD0B7AF-6CFB-BD88-C264-711559B008A8}|API.Gateway\\ApiGateway.csproj|d:\\workspace\\azureapps\\entra oidc_2\\backend_service\\api.gateway\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FD0B7AF-6CFB-BD88-C264-711559B008A8}|API.Gateway\\ApiGateway.csproj|solutionrelative:api.gateway\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F2221C57-0D20-6E76-3BAE-B16C2830D6CB}|OrderAPI\\OrderAPI.csproj|d:\\workspace\\azureapps\\entra oidc_2\\backend_service\\orderapi\\application\\commands\\deleteorder\\deleteordercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2221C57-0D20-6E76-3BAE-B16C2830D6CB}|OrderAPI\\OrderAPI.csproj|solutionrelative:orderapi\\application\\commands\\deleteorder\\deleteordercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2221C57-0D20-6E76-3BAE-B16C2830D6CB}|OrderAPI\\OrderAPI.csproj|d:\\workspace\\azureapps\\entra oidc_2\\backend_service\\orderapi\\application\\commands\\updateorder\\updateordercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2221C57-0D20-6E76-3BAE-B16C2830D6CB}|OrderAPI\\OrderAPI.csproj|solutionrelative:orderapi\\application\\commands\\updateorder\\updateordercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2221C57-0D20-6E76-3BAE-B16C2830D6CB}|OrderAPI\\OrderAPI.csproj|d:\\workspace\\azureapps\\entra oidc_2\\backend_service\\orderapi\\application\\commands\\createorder\\createordercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2221C57-0D20-6E76-3BAE-B16C2830D6CB}|OrderAPI\\OrderAPI.csproj|solutionrelative:orderapi\\application\\commands\\createorder\\createordercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC653B1D-5E9A-ECE5-1F6E-1DC766B86C6E}|OrderReadModelService\\OrderReadModelService.csproj|d:\\workspace\\azureapps\\entra oidc_2\\backend_service\\orderreadmodelservice\\services\\servicebuseventconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC653B1D-5E9A-ECE5-1F6E-1DC766B86C6E}|OrderReadModelService\\OrderReadModelService.csproj|solutionrelative:orderreadmodelservice\\services\\servicebuseventconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F2221C57-0D20-6E76-3BAE-B16C2830D6CB}|OrderAPI\\OrderAPI.csproj|d:\\workspace\\azureapps\\entra oidc_2\\backend_service\\orderapi\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F2221C57-0D20-6E76-3BAE-B16C2830D6CB}|OrderAPI\\OrderAPI.csproj|solutionrelative:orderapi\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2221C57-0D20-6E76-3BAE-B16C2830D6CB}|OrderAPI\\OrderAPI.csproj|d:\\workspace\\azureapps\\entra oidc_2\\backend_service\\orderapi\\application\\queries\\getorders\\getordersquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2221C57-0D20-6E76-3BAE-B16C2830D6CB}|OrderAPI\\OrderAPI.csproj|solutionrelative:orderapi\\application\\queries\\getorders\\getordersquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F2221C57-0D20-6E76-3BAE-B16C2830D6CB}|OrderAPI\\OrderAPI.csproj|d:\\workspace\\azureapps\\entra oidc_2\\backend_service\\orderapi\\application\\queries\\getorders\\getordersqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F2221C57-0D20-6E76-3BAE-B16C2830D6CB}|OrderAPI\\OrderAPI.csproj|solutionrelative:orderapi\\application\\queries\\getorders\\getordersqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2221C57-0D20-6E76-3BAE-B16C2830D6CB}|OrderAPI\\OrderAPI.csproj|d:\\workspace\\azureapps\\entra oidc_2\\backend_service\\orderapi\\application\\queries\\getorderbyid\\getorderbyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2221C57-0D20-6E76-3BAE-B16C2830D6CB}|OrderAPI\\OrderAPI.csproj|solutionrelative:orderapi\\application\\queries\\getorderbyid\\getorderbyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6CDAB7B3-DE4F-6FF5-06F0-D824F083F1AF}|AuthService\\AuthService.csproj|d:\\workspace\\azureapps\\entra oidc_2\\backend_service\\authservice\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CDAB7B3-DE4F-6FF5-06F0-D824F083F1AF}|AuthService\\AuthService.csproj|solutionrelative:authservice\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2221C57-0D20-6E76-3BAE-B16C2830D6CB}|OrderAPI\\OrderAPI.csproj|d:\\workspace\\azureapps\\entra oidc_2\\backend_service\\orderapi\\application\\queries\\getorderbyid\\getorderbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2221C57-0D20-6E76-3BAE-B16C2830D6CB}|OrderAPI\\OrderAPI.csproj|solutionrelative:orderapi\\application\\queries\\getorderbyid\\getorderbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6CDAB7B3-DE4F-6FF5-06F0-D824F083F1AF}|AuthService\\AuthService.csproj|d:\\workspace\\azureapps\\entra oidc_2\\backend_service\\authservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CDAB7B3-DE4F-6FF5-06F0-D824F083F1AF}|AuthService\\AuthService.csproj|solutionrelative:authservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FD0B7AF-6CFB-BD88-C264-711559B008A8}|API.Gateway\\ApiGateway.csproj|d:\\workspace\\azureapps\\entra oidc_2\\backend_service\\api.gateway\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{2FD0B7AF-6CFB-BD88-C264-711559B008A8}|API.Gateway\\ApiGateway.csproj|solutionrelative:api.gateway\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{2FD0B7AF-6CFB-BD88-C264-711559B008A8}|API.Gateway\\ApiGateway.csproj|d:\\workspace\\azureapps\\entra oidc_2\\backend_service\\api.gateway\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FD0B7AF-6CFB-BD88-C264-711559B008A8}|API.Gateway\\ApiGateway.csproj|solutionrelative:api.gateway\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2221C57-0D20-6E76-3BAE-B16C2830D6CB}|OrderAPI\\OrderAPI.csproj|d:\\workspace\\azureapps\\entra oidc_2\\backend_service\\orderapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{F2221C57-0D20-6E76-3BAE-B16C2830D6CB}|OrderAPI\\OrderAPI.csproj|solutionrelative:orderapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{DC653B1D-5E9A-ECE5-1F6E-1DC766B86C6E}|OrderReadModelService\\OrderReadModelService.csproj|d:\\workspace\\azureapps\\entra oidc_2\\backend_service\\orderreadmodelservice\\controllers\\orderreadmodelscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC653B1D-5E9A-ECE5-1F6E-1DC766B86C6E}|OrderReadModelService\\OrderReadModelService.csproj|solutionrelative:orderreadmodelservice\\controllers\\orderreadmodelscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CF9FD0F0-B9C2-54C6-189B-77AA3D46F4C2}|NotificationService\\NotificationService.csproj|d:\\workspace\\azureapps\\entra oidc_2\\backend_service\\notificationservice\\notificationservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{CF9FD0F0-B9C2-54C6-189B-77AA3D46F4C2}|NotificationService\\NotificationService.csproj|solutionrelative:notificationservice\\notificationservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{DC653B1D-5E9A-ECE5-1F6E-1DC766B86C6E}|OrderReadModelService\\OrderReadModelService.csproj|d:\\workspace\\azureapps\\entra oidc_2\\backend_service\\orderreadmodelservice\\services\\iorderreadmodelrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC653B1D-5E9A-ECE5-1F6E-1DC766B86C6E}|OrderReadModelService\\OrderReadModelService.csproj|solutionrelative:orderreadmodelservice\\services\\iorderreadmodelrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6CDAB7B3-DE4F-6FF5-06F0-D824F083F1AF}|AuthService\\AuthService.csproj|d:\\workspace\\azureapps\\entra oidc_2\\backend_service\\authservice\\authservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{6CDAB7B3-DE4F-6FF5-06F0-D824F083F1AF}|AuthService\\AuthService.csproj|solutionrelative:authservice\\authservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{DC653B1D-5E9A-ECE5-1F6E-1DC766B86C6E}|OrderReadModelService\\OrderReadModelService.csproj|d:\\workspace\\azureapps\\entra oidc_2\\backend_service\\orderreadmodelservice\\services\\orderreadmodelrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC653B1D-5E9A-ECE5-1F6E-1DC766B86C6E}|OrderReadModelService\\OrderReadModelService.csproj|solutionrelative:orderreadmodelservice\\services\\orderreadmodelrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2221C57-0D20-6E76-3BAE-B16C2830D6CB}|OrderAPI\\OrderAPI.csproj|d:\\workspace\\azureapps\\entra oidc_2\\backend_service\\orderapi\\infrastructure\\services\\servicebuseventpublisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2221C57-0D20-6E76-3BAE-B16C2830D6CB}|OrderAPI\\OrderAPI.csproj|solutionrelative:orderapi\\infrastructure\\services\\servicebuseventpublisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F2221C57-0D20-6E76-3BAE-B16C2830D6CB}|OrderAPI\\OrderAPI.csproj|d:\\workspace\\azureapps\\entra oidc_2\\backend_service\\orderapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F2221C57-0D20-6E76-3BAE-B16C2830D6CB}|OrderAPI\\OrderAPI.csproj|solutionrelative:orderapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{DC653B1D-5E9A-ECE5-1F6E-1DC766B86C6E}|OrderReadModelService\\OrderReadModelService.csproj|d:\\workspace\\azureapps\\entra oidc_2\\backend_service\\orderreadmodelservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DC653B1D-5E9A-ECE5-1F6E-1DC766B86C6E}|OrderReadModelService\\OrderReadModelService.csproj|solutionrelative:orderreadmodelservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC653B1D-5E9A-ECE5-1F6E-1DC766B86C6E}|OrderReadModelService\\OrderReadModelService.csproj|d:\\workspace\\azureapps\\entra oidc_2\\backend_service\\orderreadmodelservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC653B1D-5E9A-ECE5-1F6E-1DC766B86C6E}|OrderReadModelService\\OrderReadModelService.csproj|solutionrelative:orderreadmodelservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CDAB7B3-DE4F-6FF5-06F0-D824F083F1AF}|AuthService\\AuthService.csproj|d:\\workspace\\azureapps\\entra oidc_2\\backend_service\\authservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6CDAB7B3-DE4F-6FF5-06F0-D824F083F1AF}|AuthService\\AuthService.csproj|solutionrelative:authservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2221C57-0D20-6E76-3BAE-B16C2830D6CB}|OrderAPI\\OrderAPI.csproj|d:\\workspace\\azureapps\\entra oidc_2\\backend_service\\orderapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F2221C57-0D20-6E76-3BAE-B16C2830D6CB}|OrderAPI\\OrderAPI.csproj|solutionrelative:orderapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC653B1D-5E9A-ECE5-1F6E-1DC766B86C6E}|OrderReadModelService\\OrderReadModelService.csproj|d:\\workspace\\azureapps\\entra oidc_2\\backend_service\\orderreadmodelservice\\models\\orderreadmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC653B1D-5E9A-ECE5-1F6E-1DC766B86C6E}|OrderReadModelService\\OrderReadModelService.csproj|solutionrelative:orderreadmodelservice\\models\\orderreadmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\.copilot\\plans\\plan-cqrs-implementation-with-azure-service-bus-(queues)-and-cosmos-db.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}|MarkdownSecurePreview"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC653B1D-5E9A-ECE5-1F6E-1DC766B86C6E}|OrderReadModelService\\OrderReadModelService.csproj|d:\\workspace\\azureapps\\entra oidc_2\\backend_service\\orderreadmodelservice\\orderreadmodelservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{DC653B1D-5E9A-ECE5-1F6E-1DC766B86C6E}|OrderReadModelService\\OrderReadModelService.csproj|solutionrelative:orderreadmodelservice\\orderreadmodelservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2221C57-0D20-6E76-3BAE-B16C2830D6CB}|OrderAPI\\OrderAPI.csproj|d:\\workspace\\azureapps\\entra oidc_2\\backend_service\\orderapi\\application\\events\\ordercreatedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2221C57-0D20-6E76-3BAE-B16C2830D6CB}|OrderAPI\\OrderAPI.csproj|solutionrelative:orderapi\\application\\events\\ordercreatedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2221C57-0D20-6E76-3BAE-B16C2830D6CB}|OrderAPI\\OrderAPI.csproj|d:\\workspace\\azureapps\\entra oidc_2\\backend_service\\orderapi\\infrastructure\\services\\ieventpublisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2221C57-0D20-6E76-3BAE-B16C2830D6CB}|OrderAPI\\OrderAPI.csproj|solutionrelative:orderapi\\infrastructure\\services\\ieventpublisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2221C57-0D20-6E76-3BAE-B16C2830D6CB}|OrderAPI\\OrderAPI.csproj|d:\\workspace\\azureapps\\entra oidc_2\\backend_service\\orderapi\\application\\events\\orderupdatedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2221C57-0D20-6E76-3BAE-B16C2830D6CB}|OrderAPI\\OrderAPI.csproj|solutionrelative:orderapi\\application\\events\\orderupdatedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2221C57-0D20-6E76-3BAE-B16C2830D6CB}|OrderAPI\\OrderAPI.csproj|d:\\workspace\\azureapps\\entra oidc_2\\backend_service\\orderapi\\application\\events\\domainevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2221C57-0D20-6E76-3BAE-B16C2830D6CB}|OrderAPI\\OrderAPI.csproj|solutionrelative:orderapi\\application\\events\\domainevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC653B1D-5E9A-ECE5-1F6E-1DC766B86C6E}|OrderReadModelService\\OrderReadModelService.csproj|d:\\workspace\\azureapps\\entra oidc_2\\backend_service\\orderreadmodelservice\\services\\domainevents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC653B1D-5E9A-ECE5-1F6E-1DC766B86C6E}|OrderReadModelService\\OrderReadModelService.csproj|solutionrelative:orderreadmodelservice\\services\\domainevents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2221C57-0D20-6E76-3BAE-B16C2830D6CB}|OrderAPI\\OrderAPI.csproj|d:\\workspace\\azureapps\\entra oidc_2\\backend_service\\orderapi\\application\\events\\orderdeletedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2221C57-0D20-6E76-3BAE-B16C2830D6CB}|OrderAPI\\OrderAPI.csproj|solutionrelative:orderapi\\application\\events\\orderdeletedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2221C57-0D20-6E76-3BAE-B16C2830D6CB}|OrderAPI\\OrderAPI.csproj|d:\\workspace\\azureapps\\entra oidc_2\\backend_service\\orderapi\\application\\commands\\deleteorder\\deleteordercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2221C57-0D20-6E76-3BAE-B16C2830D6CB}|OrderAPI\\OrderAPI.csproj|solutionrelative:orderapi\\application\\commands\\deleteorder\\deleteordercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC653B1D-5E9A-ECE5-1F6E-1DC766B86C6E}|OrderReadModelService\\OrderReadModelService.csproj|d:\\workspace\\azureapps\\entra oidc_2\\backend_service\\orderreadmodelservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DC653B1D-5E9A-ECE5-1F6E-1DC766B86C6E}|OrderReadModelService\\OrderReadModelService.csproj|solutionrelative:orderreadmodelservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2221C57-0D20-6E76-3BAE-B16C2830D6CB}|OrderAPI\\OrderAPI.csproj|d:\\workspace\\azureapps\\entra oidc_2\\backend_service\\orderapi\\orderapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F2221C57-0D20-6E76-3BAE-B16C2830D6CB}|OrderAPI\\OrderAPI.csproj|solutionrelative:orderapi\\orderapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2221C57-0D20-6E76-3BAE-B16C2830D6CB}|OrderAPI\\OrderAPI.csproj|d:\\workspace\\azureapps\\entra oidc_2\\backend_service\\orderapi\\application\\queries\\getorderbyid\\getorderbyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2221C57-0D20-6E76-3BAE-B16C2830D6CB}|OrderAPI\\OrderAPI.csproj|solutionrelative:orderapi\\application\\queries\\getorderbyid\\getorderbyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CDAB7B3-DE4F-6FF5-06F0-D824F083F1AF}|AuthService\\AuthService.csproj|d:\\workspace\\azureapps\\entra oidc_2\\backend_service\\authservice\\authservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6CDAB7B3-DE4F-6FF5-06F0-D824F083F1AF}|AuthService\\AuthService.csproj|solutionrelative:authservice\\authservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CF9FD0F0-B9C2-54C6-189B-77AA3D46F4C2}|NotificationService\\NotificationService.csproj|d:\\workspace\\azureapps\\entra oidc_2\\backend_service\\notificationservice\\controllers\\notificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CF9FD0F0-B9C2-54C6-189B-77AA3D46F4C2}|NotificationService\\NotificationService.csproj|solutionrelative:notificationservice\\controllers\\notificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF9FD0F0-B9C2-54C6-189B-77AA3D46F4C2}|NotificationService\\NotificationService.csproj|d:\\workspace\\azureapps\\entra oidc_2\\backend_service\\notificationservice\\notificationservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{CF9FD0F0-B9C2-54C6-189B-77AA3D46F4C2}|NotificationService\\NotificationService.csproj|solutionrelative:notificationservice\\notificationservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2221C57-0D20-6E76-3BAE-B16C2830D6CB}|OrderAPI\\OrderAPI.csproj|d:\\workspace\\azureapps\\entra oidc_2\\backend_service\\orderapi\\application\\commands\\createorder\\createordercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2221C57-0D20-6E76-3BAE-B16C2830D6CB}|OrderAPI\\OrderAPI.csproj|solutionrelative:orderapi\\application\\commands\\createorder\\createordercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2221C57-0D20-6E76-3BAE-B16C2830D6CB}|OrderAPI\\OrderAPI.csproj|d:\\workspace\\azureapps\\entra oidc_2\\backend_service\\orderapi\\application\\queries\\getorderbyid\\getorderbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2221C57-0D20-6E76-3BAE-B16C2830D6CB}|OrderAPI\\OrderAPI.csproj|solutionrelative:orderapi\\application\\queries\\getorderbyid\\getorderbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2221C57-0D20-6E76-3BAE-B16C2830D6CB}|OrderAPI\\OrderAPI.csproj|d:\\workspace\\azureapps\\entra oidc_2\\backend_service\\orderapi\\application\\queries\\getorders\\getordersquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2221C57-0D20-6E76-3BAE-B16C2830D6CB}|OrderAPI\\OrderAPI.csproj|solutionrelative:orderapi\\application\\queries\\getorders\\getordersquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FD0B7AF-6CFB-BD88-C264-711559B008A8}|API.Gateway\\ApiGateway.csproj|d:\\workspace\\azureapps\\entra oidc_2\\backend_service\\api.gateway\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2FD0B7AF-6CFB-BD88-C264-711559B008A8}|API.Gateway\\ApiGateway.csproj|solutionrelative:api.gateway\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CF9FD0F0-B9C2-54C6-189B-77AA3D46F4C2}|NotificationService\\NotificationService.csproj|d:\\workspace\\azureapps\\entra oidc_2\\backend_service\\notificationservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -73,18 +176,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{6CDAB7B3-DE4F-6FF5-06F0-D824F083F1AF}|AuthService\\AuthService.csproj|d:\\workspace\\azureapps\\entra oidc_2\\backend_service\\authservice\\authservice.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
       "RelativeMoniker": "D:0:0:{6CDAB7B3-DE4F-6FF5-06F0-D824F083F1AF}|AuthService\\AuthService.csproj|solutionrelative:authservice\\authservice.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6CDAB7B3-DE4F-6FF5-06F0-D824F083F1AF}|AuthService\\AuthService.csproj|d:\\workspace\\azureapps\\entra oidc_2\\backend_service\\authservice\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6CDAB7B3-DE4F-6FF5-06F0-D824F083F1AF}|AuthService\\AuthService.csproj|solutionrelative:authservice\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6CDAB7B3-DE4F-6FF5-06F0-D824F083F1AF}|AuthService\\AuthService.csproj|d:\\workspace\\azureapps\\entra oidc_2\\backend_service\\authservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{6CDAB7B3-DE4F-6FF5-06F0-D824F083F1AF}|AuthService\\AuthService.csproj|solutionrelative:authservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6CDAB7B3-DE4F-6FF5-06F0-D824F083F1AF}|AuthService\\AuthService.csproj|d:\\workspace\\azureapps\\entra oidc_2\\backend_service\\authservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6CDAB7B3-DE4F-6FF5-06F0-D824F083F1AF}|AuthService\\AuthService.csproj|solutionrelative:authservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -94,7 +185,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -102,46 +193,458 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "GetOrderByIdQuery.cs",
-              "DocumentMoniker": "D:\\WorkSpace\\AzureApps\\Entra OIDC_2\\Backend_Service\\OrderAPI\\Application\\Queries\\GetOrderById\\GetOrderByIdQuery.cs",
-              "RelativeDocumentMoniker": "OrderAPI\\Application\\Queries\\GetOrderById\\GetOrderByIdQuery.cs",
-              "ToolTip": "D:\\WorkSpace\\AzureApps\\Entra OIDC_2\\Backend_Service\\OrderAPI\\Application\\Queries\\GetOrderById\\GetOrderByIdQuery.cs",
-              "RelativeToolTip": "OrderAPI\\Application\\Queries\\GetOrderById\\GetOrderByIdQuery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "ServiceBusEventConsumer.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\AzureApps\\Entra OIDC_2\\Backend_Service\\OrderReadModelService\\Services\\ServiceBusEventConsumer.cs",
+              "RelativeDocumentMoniker": "OrderReadModelService\\Services\\ServiceBusEventConsumer.cs",
+              "ToolTip": "D:\\WorkSpace\\AzureApps\\Entra OIDC_2\\Backend_Service\\OrderReadModelService\\Services\\ServiceBusEventConsumer.cs",
+              "RelativeToolTip": "OrderReadModelService\\Services\\ServiceBusEventConsumer.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAUwCEAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-15T12:41:10.855Z",
+              "WhenOpened": "2026-08-17T08:30:01.558Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\AzureApps\\Entra OIDC_2\\Backend_Service\\OrderAPI\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "OrderAPI\\Controllers\\OrdersController.cs",
+              "ToolTip": "D:\\WorkSpace\\AzureApps\\Entra OIDC_2\\Backend_Service\\OrderAPI\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "OrderAPI\\Controllers\\OrdersController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAIwBIAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-25T17:28:49.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CreateOrderCommandHandler.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\AzureApps\\Entra OIDC_2\\Backend_Service\\OrderAPI\\Application\\Commands\\CreateOrder\\CreateOrderCommandHandler.cs",
+              "RelativeDocumentMoniker": "OrderAPI\\Application\\Commands\\CreateOrder\\CreateOrderCommandHandler.cs",
+              "ToolTip": "D:\\WorkSpace\\AzureApps\\Entra OIDC_2\\Backend_Service\\OrderAPI\\Application\\Commands\\CreateOrder\\CreateOrderCommandHandler.cs",
+              "RelativeToolTip": "OrderAPI\\Application\\Commands\\CreateOrder\\CreateOrderCommandHandler.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAmwB4AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-15T13:41:53.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UpdateOrderCommandHandler.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\AzureApps\\Entra OIDC_2\\Backend_Service\\OrderAPI\\Application\\Commands\\UpdateOrder\\UpdateOrderCommandHandler.cs",
+              "RelativeDocumentMoniker": "OrderAPI\\Application\\Commands\\UpdateOrder\\UpdateOrderCommandHandler.cs",
+              "ToolTip": "D:\\WorkSpace\\AzureApps\\Entra OIDC_2\\Backend_Service\\OrderAPI\\Application\\Commands\\UpdateOrder\\UpdateOrderCommandHandler.cs",
+              "RelativeToolTip": "OrderAPI\\Application\\Commands\\UpdateOrder\\UpdateOrderCommandHandler.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAiwDcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-17T08:26:47.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DeleteOrderCommandHandler.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\AzureApps\\Entra OIDC_2\\Backend_Service\\OrderAPI\\Application\\Commands\\DeleteOrder\\DeleteOrderCommandHandler.cs",
+              "RelativeDocumentMoniker": "OrderAPI\\Application\\Commands\\DeleteOrder\\DeleteOrderCommandHandler.cs",
+              "ToolTip": "D:\\WorkSpace\\AzureApps\\Entra OIDC_2\\Backend_Service\\OrderAPI\\Application\\Commands\\DeleteOrder\\DeleteOrderCommandHandler.cs",
+              "RelativeToolTip": "OrderAPI\\Application\\Commands\\DeleteOrder\\DeleteOrderCommandHandler.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwB4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-17T08:27:16.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "GetOrdersQueryHandler.cs",
               "DocumentMoniker": "D:\\WorkSpace\\AzureApps\\Entra OIDC_2\\Backend_Service\\OrderAPI\\Application\\Queries\\GetOrders\\GetOrdersQueryHandler.cs",
               "RelativeDocumentMoniker": "OrderAPI\\Application\\Queries\\GetOrders\\GetOrdersQueryHandler.cs",
               "ToolTip": "D:\\WorkSpace\\AzureApps\\Entra OIDC_2\\Backend_Service\\OrderAPI\\Application\\Queries\\GetOrders\\GetOrdersQueryHandler.cs",
               "RelativeToolTip": "OrderAPI\\Application\\Queries\\GetOrders\\GetOrdersQueryHandler.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwCEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA/wBYAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-15T12:38:59.314Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GetOrdersQuery.cs",
-              "DocumentMoniker": "D:\\WorkSpace\\AzureApps\\Entra OIDC_2\\Backend_Service\\OrderAPI\\Application\\Queries\\GetOrders\\GetOrdersQuery.cs",
-              "RelativeDocumentMoniker": "OrderAPI\\Application\\Queries\\GetOrders\\GetOrdersQuery.cs",
-              "ToolTip": "D:\\WorkSpace\\AzureApps\\Entra OIDC_2\\Backend_Service\\OrderAPI\\Application\\Queries\\GetOrders\\GetOrdersQuery.cs",
-              "RelativeToolTip": "OrderAPI\\Application\\Queries\\GetOrders\\GetOrdersQuery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAMAAAAxAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\AzureApps\\Entra OIDC_2\\Backend_Service\\AuthService\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "AuthService\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\WorkSpace\\AzureApps\\Entra OIDC_2\\Backend_Service\\AuthService\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "AuthService\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAuwCsAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-15T12:37:57.5Z",
+              "WhenOpened": "2026-07-25T15:21:50.373Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\AzureApps\\Entra OIDC_2\\Backend_Service\\AuthService\\Program.cs",
+              "RelativeDocumentMoniker": "AuthService\\Program.cs",
+              "ToolTip": "D:\\WorkSpace\\AzureApps\\Entra OIDC_2\\Backend_Service\\AuthService\\Program.cs",
+              "RelativeToolTip": "AuthService\\Program.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAAADcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-25T15:21:11.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\AzureApps\\Entra OIDC_2\\Backend_Service\\API.Gateway\\Program.cs",
+              "RelativeDocumentMoniker": "API.Gateway\\Program.cs",
+              "ToolTip": "D:\\WorkSpace\\AzureApps\\Entra OIDC_2\\Backend_Service\\API.Gateway\\Program.cs",
+              "RelativeToolTip": "API.Gateway\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-07T10:12:05.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "OrderReadModelsController.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\AzureApps\\Entra OIDC_2\\Backend_Service\\OrderReadModelService\\Controllers\\OrderReadModelsController.cs",
+              "RelativeDocumentMoniker": "OrderReadModelService\\Controllers\\OrderReadModelsController.cs",
+              "ToolTip": "D:\\WorkSpace\\AzureApps\\Entra OIDC_2\\Backend_Service\\OrderReadModelService\\Controllers\\OrderReadModelsController.cs",
+              "RelativeToolTip": "OrderReadModelService\\Controllers\\OrderReadModelsController.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAcwC4AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-17T08:30:23.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IOrderReadModelRepository.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\AzureApps\\Entra OIDC_2\\Backend_Service\\OrderReadModelService\\Services\\IOrderReadModelRepository.cs",
+              "RelativeDocumentMoniker": "OrderReadModelService\\Services\\IOrderReadModelRepository.cs",
+              "ToolTip": "D:\\WorkSpace\\AzureApps\\Entra OIDC_2\\Backend_Service\\OrderReadModelService\\Services\\IOrderReadModelRepository.cs",
+              "RelativeToolTip": "OrderReadModelService\\Services\\IOrderReadModelRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-17T08:29:27.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "OrderReadModelRepository.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\AzureApps\\Entra OIDC_2\\Backend_Service\\OrderReadModelService\\Services\\OrderReadModelRepository.cs",
+              "RelativeDocumentMoniker": "OrderReadModelService\\Services\\OrderReadModelRepository.cs",
+              "ToolTip": "D:\\WorkSpace\\AzureApps\\Entra OIDC_2\\Backend_Service\\OrderReadModelService\\Services\\OrderReadModelRepository.cs",
+              "RelativeToolTip": "OrderReadModelService\\Services\\OrderReadModelRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-17T08:29:28.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ServiceBusEventPublisher.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\AzureApps\\Entra OIDC_2\\Backend_Service\\OrderAPI\\Infrastructure\\Services\\ServiceBusEventPublisher.cs",
+              "RelativeDocumentMoniker": "OrderAPI\\Infrastructure\\Services\\ServiceBusEventPublisher.cs",
+              "ToolTip": "D:\\WorkSpace\\AzureApps\\Entra OIDC_2\\Backend_Service\\OrderAPI\\Infrastructure\\Services\\ServiceBusEventPublisher.cs",
+              "RelativeToolTip": "OrderAPI\\Infrastructure\\Services\\ServiceBusEventPublisher.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAmwBgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-17T08:25:09.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\AzureApps\\Entra OIDC_2\\Backend_Service\\OrderAPI\\Program.cs",
+              "RelativeDocumentMoniker": "OrderAPI\\Program.cs",
+              "ToolTip": "D:\\WorkSpace\\AzureApps\\Entra OIDC_2\\Backend_Service\\OrderAPI\\Program.cs",
+              "RelativeToolTip": "OrderAPI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-26T04:19:11.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\WorkSpace\\AzureApps\\Entra OIDC_2\\Backend_Service\\OrderReadModelService\\appsettings.json",
+              "RelativeDocumentMoniker": "OrderReadModelService\\appsettings.json",
+              "ToolTip": "D:\\WorkSpace\\AzureApps\\Entra OIDC_2\\Backend_Service\\OrderReadModelService\\appsettings.json",
+              "RelativeToolTip": "OrderReadModelService\\appsettings.json",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-08-17T08:27:57.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\AzureApps\\Entra OIDC_2\\Backend_Service\\OrderReadModelService\\Program.cs",
+              "RelativeDocumentMoniker": "OrderReadModelService\\Program.cs",
+              "ToolTip": "D:\\WorkSpace\\AzureApps\\Entra OIDC_2\\Backend_Service\\OrderReadModelService\\Program.cs",
+              "RelativeToolTip": "OrderReadModelService\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-17T08:27:58.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\WorkSpace\\AzureApps\\Entra OIDC_2\\Backend_Service\\AuthService\\appsettings.json",
+              "RelativeDocumentMoniker": "AuthService\\appsettings.json",
+              "ToolTip": "D:\\WorkSpace\\AzureApps\\Entra OIDC_2\\Backend_Service\\AuthService\\appsettings.json",
+              "RelativeToolTip": "AuthService\\appsettings.json",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAAAkAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-07-26T04:34:50.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\WorkSpace\\AzureApps\\Entra OIDC_2\\Backend_Service\\OrderAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "OrderAPI\\appsettings.json",
+              "ToolTip": "D:\\WorkSpace\\AzureApps\\Entra OIDC_2\\Backend_Service\\OrderAPI\\appsettings.json",
+              "RelativeToolTip": "OrderAPI\\appsettings.json",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAA0AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-08-15T12:31:24.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "OrderReadModel.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\AzureApps\\Entra OIDC_2\\Backend_Service\\OrderReadModelService\\Models\\OrderReadModel.cs",
+              "RelativeDocumentMoniker": "OrderReadModelService\\Models\\OrderReadModel.cs",
+              "ToolTip": "D:\\WorkSpace\\AzureApps\\Entra OIDC_2\\Backend_Service\\OrderReadModelService\\Models\\OrderReadModel.cs",
+              "RelativeToolTip": "OrderReadModelService\\Models\\OrderReadModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-17T08:28:56.145Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "OrderReadModelService.csproj",
+              "DocumentMoniker": "D:\\WorkSpace\\AzureApps\\Entra OIDC_2\\Backend_Service\\OrderReadModelService\\OrderReadModelService.csproj",
+              "RelativeDocumentMoniker": "OrderReadModelService\\OrderReadModelService.csproj",
+              "ToolTip": "D:\\WorkSpace\\AzureApps\\Entra OIDC_2\\Backend_Service\\OrderReadModelService\\OrderReadModelService.csproj",
+              "RelativeToolTip": "OrderReadModelService\\OrderReadModelService.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-08-17T08:42:31.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "plan-cqrs-implementation-with-azure-service-bus-(queues)-and-cosmos-db.md [Preview]",
+              "DocumentMoniker": "C:\\Users\\DELL\\.copilot\\plans\\plan-cqrs-implementation-with-azure-service-bus-(queues)-and-cosmos-db.md",
+              "ToolTip": "C:\\Users\\DELL\\.copilot\\plans\\plan-cqrs-implementation-with-azure-service-bus-(queues)-and-cosmos-db.md [Preview]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-08-17T08:26:08.944Z",
+              "EditorCaption": " [Preview]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "OrderCreatedEvent.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\AzureApps\\Entra OIDC_2\\Backend_Service\\OrderAPI\\Application\\Events\\OrderCreatedEvent.cs",
+              "RelativeDocumentMoniker": "OrderAPI\\Application\\Events\\OrderCreatedEvent.cs",
+              "ToolTip": "D:\\WorkSpace\\AzureApps\\Entra OIDC_2\\Backend_Service\\OrderAPI\\Application\\Events\\OrderCreatedEvent.cs",
+              "RelativeToolTip": "OrderAPI\\Application\\Events\\OrderCreatedEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-17T08:24:33.159Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IEventPublisher.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\AzureApps\\Entra OIDC_2\\Backend_Service\\OrderAPI\\Infrastructure\\Services\\IEventPublisher.cs",
+              "RelativeDocumentMoniker": "OrderAPI\\Infrastructure\\Services\\IEventPublisher.cs",
+              "ToolTip": "D:\\WorkSpace\\AzureApps\\Entra OIDC_2\\Backend_Service\\OrderAPI\\Infrastructure\\Services\\IEventPublisher.cs",
+              "RelativeToolTip": "OrderAPI\\Infrastructure\\Services\\IEventPublisher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-17T08:25:09.627Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "OrderUpdatedEvent.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\AzureApps\\Entra OIDC_2\\Backend_Service\\OrderAPI\\Application\\Events\\OrderUpdatedEvent.cs",
+              "RelativeDocumentMoniker": "OrderAPI\\Application\\Events\\OrderUpdatedEvent.cs",
+              "ToolTip": "D:\\WorkSpace\\AzureApps\\Entra OIDC_2\\Backend_Service\\OrderAPI\\Application\\Events\\OrderUpdatedEvent.cs",
+              "RelativeToolTip": "OrderAPI\\Application\\Events\\OrderUpdatedEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-17T08:24:33.694Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "DomainEvent.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\AzureApps\\Entra OIDC_2\\Backend_Service\\OrderAPI\\Application\\Events\\DomainEvent.cs",
+              "RelativeDocumentMoniker": "OrderAPI\\Application\\Events\\DomainEvent.cs",
+              "ToolTip": "D:\\WorkSpace\\AzureApps\\Entra OIDC_2\\Backend_Service\\OrderAPI\\Application\\Events\\DomainEvent.cs",
+              "RelativeToolTip": "OrderAPI\\Application\\Events\\DomainEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-17T08:24:32.554Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "DomainEvents.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\AzureApps\\Entra OIDC_2\\Backend_Service\\OrderReadModelService\\Services\\DomainEvents.cs",
+              "RelativeDocumentMoniker": "OrderReadModelService\\Services\\DomainEvents.cs",
+              "ToolTip": "D:\\WorkSpace\\AzureApps\\Entra OIDC_2\\Backend_Service\\OrderReadModelService\\Services\\DomainEvents.cs",
+              "RelativeToolTip": "OrderReadModelService\\Services\\DomainEvents.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwAoAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-17T08:30:00.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "OrderDeletedEvent.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\AzureApps\\Entra OIDC_2\\Backend_Service\\OrderAPI\\Application\\Events\\OrderDeletedEvent.cs",
+              "RelativeDocumentMoniker": "OrderAPI\\Application\\Events\\OrderDeletedEvent.cs",
+              "ToolTip": "D:\\WorkSpace\\AzureApps\\Entra OIDC_2\\Backend_Service\\OrderAPI\\Application\\Events\\OrderDeletedEvent.cs",
+              "RelativeToolTip": "OrderAPI\\Application\\Events\\OrderDeletedEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-17T08:24:30.598Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "DeleteOrderCommand.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\AzureApps\\Entra OIDC_2\\Backend_Service\\OrderAPI\\Application\\Commands\\DeleteOrder\\DeleteOrderCommand.cs",
+              "RelativeDocumentMoniker": "OrderAPI\\Application\\Commands\\DeleteOrder\\DeleteOrderCommand.cs",
+              "ToolTip": "D:\\WorkSpace\\AzureApps\\Entra OIDC_2\\Backend_Service\\OrderAPI\\Application\\Commands\\DeleteOrder\\DeleteOrderCommand.cs",
+              "RelativeToolTip": "OrderAPI\\Application\\Commands\\DeleteOrder\\DeleteOrderCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-17T08:27:17.246Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\WorkSpace\\AzureApps\\Entra OIDC_2\\Backend_Service\\OrderReadModelService\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "OrderReadModelService\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\WorkSpace\\AzureApps\\Entra OIDC_2\\Backend_Service\\OrderReadModelService\\Properties\\launchSettings.json",
+              "RelativeToolTip": "OrderReadModelService\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-08-17T09:11:59.317Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "OrderAPI.csproj",
+              "DocumentMoniker": "D:\\WorkSpace\\AzureApps\\Entra OIDC_2\\Backend_Service\\OrderAPI\\OrderAPI.csproj",
+              "RelativeDocumentMoniker": "OrderAPI\\OrderAPI.csproj",
+              "ToolTip": "D:\\WorkSpace\\AzureApps\\Entra OIDC_2\\Backend_Service\\OrderAPI\\OrderAPI.csproj",
+              "RelativeToolTip": "OrderAPI\\OrderAPI.csproj",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAhwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-08-17T08:34:12.969Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "AuthService.csproj",
+              "DocumentMoniker": "D:\\WorkSpace\\AzureApps\\Entra OIDC_2\\Backend_Service\\AuthService\\AuthService.csproj",
+              "RelativeDocumentMoniker": "AuthService\\AuthService.csproj",
+              "ToolTip": "D:\\WorkSpace\\AzureApps\\Entra OIDC_2\\Backend_Service\\AuthService\\AuthService.csproj",
+              "RelativeToolTip": "AuthService\\AuthService.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-07-26T04:29:20.995Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "GetOrderByIdQueryHandler.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\AzureApps\\Entra OIDC_2\\Backend_Service\\OrderAPI\\Application\\Queries\\GetOrderById\\GetOrderByIdQueryHandler.cs",
+              "RelativeDocumentMoniker": "OrderAPI\\Application\\Queries\\GetOrderById\\GetOrderByIdQueryHandler.cs",
+              "ToolTip": "D:\\WorkSpace\\AzureApps\\Entra OIDC_2\\Backend_Service\\OrderAPI\\Application\\Queries\\GetOrderById\\GetOrderByIdQueryHandler.cs",
+              "RelativeToolTip": "OrderAPI\\Application\\Queries\\GetOrderById\\GetOrderByIdQueryHandler.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAIA/wAkAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-15T12:41:15.277Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "NotificationController.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\AzureApps\\Entra OIDC_2\\Backend_Service\\NotificationService\\Controllers\\NotificationController.cs",
+              "RelativeDocumentMoniker": "NotificationService\\Controllers\\NotificationController.cs",
+              "ToolTip": "D:\\WorkSpace\\AzureApps\\Entra OIDC_2\\Backend_Service\\NotificationService\\Controllers\\NotificationController.cs",
+              "RelativeToolTip": "NotificationService\\Controllers\\NotificationController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-07T11:04:40.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "NotificationService.csproj",
+              "DocumentMoniker": "D:\\WorkSpace\\AzureApps\\Entra OIDC_2\\Backend_Service\\NotificationService\\NotificationService.csproj",
+              "RelativeDocumentMoniker": "NotificationService\\NotificationService.csproj",
+              "ToolTip": "D:\\WorkSpace\\AzureApps\\Entra OIDC_2\\Backend_Service\\NotificationService\\NotificationService.csproj",
+              "RelativeToolTip": "NotificationService\\NotificationService.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-08-15T12:30:48.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "CreateOrderCommand.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\AzureApps\\Entra OIDC_2\\Backend_Service\\OrderAPI\\Application\\Commands\\CreateOrder\\CreateOrderCommand.cs",
+              "RelativeDocumentMoniker": "OrderAPI\\Application\\Commands\\CreateOrder\\CreateOrderCommand.cs",
+              "ToolTip": "D:\\WorkSpace\\AzureApps\\Entra OIDC_2\\Backend_Service\\OrderAPI\\Application\\Commands\\CreateOrder\\CreateOrderCommand.cs",
+              "RelativeToolTip": "OrderAPI\\Application\\Commands\\CreateOrder\\CreateOrderCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-15T13:41:49.176Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "GetOrderByIdQuery.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\AzureApps\\Entra OIDC_2\\Backend_Service\\OrderAPI\\Application\\Queries\\GetOrderById\\GetOrderByIdQuery.cs",
+              "RelativeDocumentMoniker": "OrderAPI\\Application\\Queries\\GetOrderById\\GetOrderByIdQuery.cs",
+              "ToolTip": "D:\\WorkSpace\\AzureApps\\Entra OIDC_2\\Backend_Service\\OrderAPI\\Application\\Queries\\GetOrderById\\GetOrderByIdQuery.cs",
+              "RelativeToolTip": "OrderAPI\\Application\\Queries\\GetOrderById\\GetOrderByIdQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-15T12:41:10.855Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\WorkSpace\\AzureApps\\Entra OIDC_2\\Backend_Service\\API.Gateway\\appsettings.json",
               "RelativeDocumentMoniker": "API.Gateway\\appsettings.json",
@@ -149,101 +652,46 @@
               "RelativeToolTip": "API.Gateway\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-08-15T12:31:55.376Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-15T12:31:55.376Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "OrdersController.cs",
-              "DocumentMoniker": "D:\\WorkSpace\\AzureApps\\Entra OIDC_2\\Backend_Service\\OrderAPI\\Controllers\\OrdersController.cs",
-              "RelativeDocumentMoniker": "OrderAPI\\Controllers\\OrdersController.cs",
-              "ToolTip": "D:\\WorkSpace\\AzureApps\\Entra OIDC_2\\Backend_Service\\OrderAPI\\Controllers\\OrdersController.cs",
-              "RelativeToolTip": "OrderAPI\\Controllers\\OrdersController.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAxwBEAAAAdAAAAAAAAAA==",
+              "DocumentIndex": 36,
+              "Title": "GetOrdersQuery.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\AzureApps\\Entra OIDC_2\\Backend_Service\\OrderAPI\\Application\\Queries\\GetOrders\\GetOrdersQuery.cs",
+              "RelativeDocumentMoniker": "OrderAPI\\Application\\Queries\\GetOrders\\GetOrdersQuery.cs",
+              "ToolTip": "D:\\WorkSpace\\AzureApps\\Entra OIDC_2\\Backend_Service\\OrderAPI\\Application\\Queries\\GetOrders\\GetOrdersQuery.cs",
+              "RelativeToolTip": "OrderAPI\\Application\\Queries\\GetOrders\\GetOrdersQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAMAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-25T17:28:49.47Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-15T12:37:57.5Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\WorkSpace\\AzureApps\\Entra OIDC_2\\Backend_Service\\API.Gateway\\Program.cs",
-              "RelativeDocumentMoniker": "API.Gateway\\Program.cs",
-              "ToolTip": "D:\\WorkSpace\\AzureApps\\Entra OIDC_2\\Backend_Service\\API.Gateway\\Program.cs",
-              "RelativeToolTip": "API.Gateway\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-07T10:12:05.442Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "GetOrderByIdQueryHandler.cs",
-              "DocumentMoniker": "D:\\WorkSpace\\AzureApps\\Entra OIDC_2\\Backend_Service\\OrderAPI\\Application\\Queries\\GetOrderById\\GetOrderByIdQueryHandler.cs",
-              "RelativeDocumentMoniker": "OrderAPI\\Application\\Queries\\GetOrderById\\GetOrderByIdQueryHandler.cs",
-              "ToolTip": "D:\\WorkSpace\\AzureApps\\Entra OIDC_2\\Backend_Service\\OrderAPI\\Application\\Queries\\GetOrderById\\GetOrderByIdQueryHandler.cs",
-              "RelativeToolTip": "OrderAPI\\Application\\Queries\\GetOrderById\\GetOrderByIdQueryHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-15T12:41:15.277Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\WorkSpace\\AzureApps\\Entra OIDC_2\\Backend_Service\\OrderAPI\\appsettings.json",
-              "RelativeDocumentMoniker": "OrderAPI\\appsettings.json",
-              "ToolTip": "D:\\WorkSpace\\AzureApps\\Entra OIDC_2\\Backend_Service\\OrderAPI\\appsettings.json",
-              "RelativeToolTip": "OrderAPI\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-08-15T12:31:24.084Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "NotificationService",
-              "DocumentMoniker": "D:\\WorkSpace\\AzureApps\\Entra OIDC_2\\Backend_Service\\NotificationService\\NotificationService.csproj",
-              "RelativeDocumentMoniker": "NotificationService\\NotificationService.csproj",
-              "ToolTip": "D:\\WorkSpace\\AzureApps\\Entra OIDC_2\\Backend_Service\\NotificationService\\NotificationService.csproj",
-              "RelativeToolTip": "NotificationService\\NotificationService.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-08-15T12:30:48.677Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 43,
               "Title": "AuthService",
               "DocumentMoniker": "D:\\WorkSpace\\AzureApps\\Entra OIDC_2\\Backend_Service\\AuthService\\AuthService.csproj",
               "RelativeDocumentMoniker": "AuthService\\AuthService.csproj",
               "ToolTip": "D:\\WorkSpace\\AzureApps\\Entra OIDC_2\\Backend_Service\\AuthService\\AuthService.csproj",
               "RelativeToolTip": "AuthService\\AuthService.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-08-07T10:19:25.479Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-07T10:19:25.479Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 39,
               "Title": "Ocelot.json",
               "DocumentMoniker": "D:\\WorkSpace\\AzureApps\\Entra OIDC_2\\Backend_Service\\API.Gateway\\Ocelot.json",
               "RelativeDocumentMoniker": "API.Gateway\\Ocelot.json",
               "ToolTip": "D:\\WorkSpace\\AzureApps\\Entra OIDC_2\\Backend_Service\\API.Gateway\\Ocelot.json",
               "RelativeToolTip": "API.Gateway\\Ocelot.json",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAABkAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAADIAAAAAAAAAAIBMwBkAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2026-08-07T09:50:32.204Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 42,
               "Title": "OrderAPI.http",
               "DocumentMoniker": "D:\\WorkSpace\\AzureApps\\Entra OIDC_2\\Backend_Service\\OrderAPI\\OrderAPI.http",
               "RelativeDocumentMoniker": "OrderAPI\\OrderAPI.http",
@@ -255,7 +703,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 41,
               "Title": "launchSettings.json",
               "DocumentMoniker": "D:\\WorkSpace\\AzureApps\\Entra OIDC_2\\Backend_Service\\OrderAPI\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "OrderAPI\\Properties\\launchSettings.json",
@@ -267,58 +715,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\WorkSpace\\AzureApps\\Entra OIDC_2\\Backend_Service\\AuthService\\appsettings.json",
-              "RelativeDocumentMoniker": "AuthService\\appsettings.json",
-              "ToolTip": "D:\\WorkSpace\\AzureApps\\Entra OIDC_2\\Backend_Service\\AuthService\\appsettings.json",
-              "RelativeToolTip": "AuthService\\appsettings.json",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAkwBIAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-07-26T04:34:50.345Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\WorkSpace\\AzureApps\\Entra OIDC_2\\Backend_Service\\OrderAPI\\Program.cs",
-              "RelativeDocumentMoniker": "OrderAPI\\Program.cs",
-              "ToolTip": "D:\\WorkSpace\\AzureApps\\Entra OIDC_2\\Backend_Service\\OrderAPI\\Program.cs",
-              "RelativeToolTip": "OrderAPI\\Program.cs",
-              "ViewState": "AgIAAF0AAAAAAAAAAAAIwGEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-26T04:19:11.585Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "AuthService.csproj",
-              "DocumentMoniker": "D:\\WorkSpace\\AzureApps\\Entra OIDC_2\\Backend_Service\\AuthService\\AuthService.csproj",
-              "RelativeDocumentMoniker": "AuthService\\AuthService.csproj",
-              "ToolTip": "D:\\WorkSpace\\AzureApps\\Entra OIDC_2\\Backend_Service\\AuthService\\AuthService.csproj",
-              "RelativeToolTip": "AuthService\\AuthService.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-07-26T04:29:20.995Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "NotificationController.cs",
-              "DocumentMoniker": "D:\\WorkSpace\\AzureApps\\Entra OIDC_2\\Backend_Service\\NotificationService\\Controllers\\NotificationController.cs",
-              "RelativeDocumentMoniker": "NotificationService\\Controllers\\NotificationController.cs",
-              "ToolTip": "D:\\WorkSpace\\AzureApps\\Entra OIDC_2\\Backend_Service\\NotificationService\\Controllers\\NotificationController.cs",
-              "RelativeToolTip": "NotificationService\\Controllers\\NotificationController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-07T11:04:40.993Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 38,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\WorkSpace\\AzureApps\\Entra OIDC_2\\Backend_Service\\NotificationService\\Program.cs",
               "RelativeDocumentMoniker": "NotificationService\\Program.cs",
@@ -326,11 +723,12 @@
               "RelativeToolTip": "NotificationService\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-07T11:41:09.873Z"
+              "WhenOpened": "2026-08-07T11:41:09.873Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 40,
               "Title": "launchSettings.json",
               "DocumentMoniker": "D:\\WorkSpace\\AzureApps\\Entra OIDC_2\\Backend_Service\\NotificationService\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "NotificationService\\Properties\\launchSettings.json",
@@ -339,32 +737,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2026-08-07T11:06:48.63Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "D:\\WorkSpace\\AzureApps\\Entra OIDC_2\\Backend_Service\\AuthService\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "AuthService\\Controllers\\AuthController.cs",
-              "ToolTip": "D:\\WorkSpace\\AzureApps\\Entra OIDC_2\\Backend_Service\\AuthService\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "AuthService\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAQwCcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-25T15:21:50.373Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\WorkSpace\\AzureApps\\Entra OIDC_2\\Backend_Service\\AuthService\\Program.cs",
-              "RelativeDocumentMoniker": "AuthService\\Program.cs",
-              "ToolTip": "D:\\WorkSpace\\AzureApps\\Entra OIDC_2\\Backend_Service\\AuthService\\Program.cs",
-              "RelativeToolTip": "AuthService\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-25T15:21:11.754Z",
-              "EditorCaption": ""
             }
           ]
         }
